@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*  -----------------start header-------------*/
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color:#F5F5F5;
+    box-shadow: 0 0 10px white;
+    z-index:1; 
+    z-index: 1;
+  }
+  .logo{
+    width:120px;
+    height: 120px;
+    margin-top:-5px;
+    margin-left: 20px;
+}
+.long_btn{
+    margin-top: 30px;
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+.long_btn>a{
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+/*  -----------------end header-------------*/
+/*  -----------------start about-------------*/
+.about{
+    
+    margin-top:10rem;
+    box-shadow:0 0 10px white; 
+    background-color: navy;
+    backdrop-filter: blur(20px);
+    border: 4px solid white;
+  
+}
+.about_title{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    color:white;
+}
+.text{
+    margin-top:5px;
+   color:white;
+   font-size: 18px;
+   padding: 15px;
+   line-height: 50px;
+  
+}
+/*  -----------------end about-------------*/
+/*  -----------------end footer-------------*/
+.payment{
+    margin-left: 50rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+/*  -----------------end footer-------------*/
+
+@media (min-width: 1025px) and (max-width: 2000px) {
+
+    .payment{
+        margin-left:5rem;
+        width: 80%;
+    
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navication{
+        position: relative;
+        top: 20px;
+        left: 2rem;
+    
+    }  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .payment{
+        margin-left:5rem;
+        width: 80%;
+    
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .long_btn>a{
+        text-decoration: none;
+        color: white;
+        padding:4px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .navication{
+        position: relative;
+        top: 20px;
+        left: 2rem;
+ 
+    }
+
+    .about_title{
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+        color:white;
+    }
+    .text{
+        margin-top:10px;
+       color:white;
+       font-size: 16px;
+       padding: 15px;
+       line-height: 50px;
+      
+    }
+    .payment{
+ margin-left: 4rem;
+ width: 80%;
+
+    }
+}
+/* 
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .logo{
+        margin-left:-5px;
+    }
+    .long_btn>a{
+        text-decoration: none;
+        color: white;
+        padding:2px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .navication{
+        position: relative;
+        top: 20px;
+        left: 2rem;
+ 
+    }
+    .about{
+        width: 100%;
+    }
+    .about_title{
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        color:white;
+    }
+    .text{
+        margin-top:10px;
+       color:white;
+       font-size: 14px;
+       padding: 15px;
+       line-height: 40px;
+      
+    }
+    .payment{
+        position: relative;
+        left:-47rem;
+        width: 80%;
+  
+    }
+}
