@@ -487,7 +487,7 @@ header{
     background-color: red;
     border: 5px solid red;
     border-radius: 10px;
-    margin-left: 3rem;
+    margin-left: -3rem;
 }
 .long_btn>a{
     text-decoration: none;
@@ -608,7 +608,7 @@ header{
         background-color: red;
         border: 5px solid red;
         border-radius: 10px;
-        margin-left: 3rem;
+        margin-left: -3rem;
     }
     .long_btn>a{
         text-decoration: none;
